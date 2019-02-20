@@ -20,3 +20,8 @@ singlyLinkedList.prototype.append = function(value) {
   }
 }
 
+let linkedList = new singlyLinkedList()
+let someIntegers = [3, 55, 632, 7, 9]
+someIntegers.forEach(element => linkedList.append( element ) )
+console.log(linkedList)
+
